@@ -1,0 +1,51 @@
+/* .containerHome{
+    display: flex;
+}
+.up{
+
+}
+.left{
+    width: 40%;
+    height: 100%;
+    background-color: #5a5353;
+}
+.center{
+    width: 60%;
+    height: 100%;
+    background-color: #cea34fe2;
+    display: flex; 
+} */
+.containerHome {
+    display: flex;
+  }
+  
+  .up {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .left {
+    width: 40%;
+    height: 100vh;
+    background-color: #5a5353;
+    padding: 10px;
+  }
+  
+  .center {
+    width: 60%;
+    height: 100vh;
+    background-color: #cea34fe2;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: scroll;
+  }
+  
+  .PaginatedP {
+    /* Estilos para la paginación */
+    /* Añade los estilos que necesites para tu paginación */
+  }
+  

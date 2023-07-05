@@ -1,0 +1,183 @@
+/* .containerS {
+    display: flex;
+    justify-content: center;
+  }  
+  .search {    
+    margin-top: 10px;
+    text-align: center;
+  }
+  .input-style {
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+  }
+  
+  .input-style:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+.buttonS{
+    top:31px;
+    height: 40px;
+    width: 80px;    
+    left: 830px;
+    color: azure;
+    background-color:#01579b ;
+} */
+/* .containerS {  
+  margin-top: 0px;
+  display: flex;
+  justify-content:center;
+  margin: 20px;
+  background-color: #007bff;
+}
+
+.search {
+  
+  margin-top: 20px;
+  text-align: center;
+}
+
+.input-style {
+  margin-bottom: 14px;
+  margin-top: 2%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #555;
+  outline: none;
+  width: 20%; 
+}
+
+.input-style:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.buttonS {
+  margin-bottom: 14px;
+  position: sticky;
+  margin-left: 50px;
+  top: 59px; 
+  height: 40px;
+  width: 80px;
+  color: azure;
+  background-color: #01579b;
+}
+.buttonH {
+  margin-left: 150px;
+  margin-bottom: 14px;
+  position: sticky;
+  margin-left: 1px;
+  top: 59px; 
+  height: 40px;
+  width: 150px;
+  color: azure;
+  background-color: #01579b;
+}
+.titleH {
+  margin-bottom: 14px;
+  position: sticky;
+  margin-right: 21px;
+  margin-left: 20px;
+  left: -220px;
+  height: 40px;
+  width: 250px;
+  color: azure;
+}
+.imageHome{
+  margin-left: -350px;
+  width: 70px;
+  height: 80px;
+} */
+.containerS {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  background: rgb(244,244,246);
+  background: linear-gradient(360deg, rgba(244,244,246,1) 0%, rgba(44,178,253,1) 100%)
+}
+
+.titleH {
+  margin-right: 20px;
+  color: azure;
+}
+
+.imageHome {
+  width: 70px;
+  height: 80px;
+}
+
+.buttonH {
+  margin-left: 250px;
+  margin-bottom: 33px;
+  position: sticky;
+  height: 40px;
+  width: 80px;
+  color: azure;
+  background-color: #01589b00;
+}
+.buttonAdd {
+  margin-left: 30px;
+  margin-bottom: 33px;
+  position: sticky;
+  height: 40px;
+  width: 150px;
+  color: azure;
+  background-color: #01589b00;
+}
+
+.buttonS {
+  margin-left: 350px;
+  margin-bottom: 33px;
+  position: sticky;
+  margin-left: 50px;
+  height: 40px;
+  width: 80px;
+  color: azure;
+  background-color: #01589b00;
+}
+
+.input-style {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #555;
+  outline: none;
+  width: 20%;
+}
+
+.containerS > * {
+  margin-bottom: 14px;
+}
+
+/* Media queries para estilos específicos en diferentes tamaños de pantalla */
+@media screen and (max-width: 768px) {
+  .containerS {
+    flex-direction: column; /* Cambia la dirección del flex alineando verticalmente en pantallas pequeñas */
+    align-items: center; /* Alinea los elementos verticalmente */
+  }
+
+  .input-style {
+    width: 100%; /* Ajusta el ancho del input al 100% en pantallas pequeñas */
+  }
+
+  .buttonS {
+    margin-top: 33px; /* Agrega un margen superior en pantallas pequeñas */
+    position: static; /* Elimina la posición sticky en pantallas pequeñas */
+  }
+}
+
+
+
+  
+
+  
